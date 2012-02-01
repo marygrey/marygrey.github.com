@@ -1,0 +1,28 @@
+<DOCTYPE html>
+<html>
+<head>
+<body>
+<title>dogs vs. cats</title>
+<head>
+<body>
+<nav>
+<ul>
+<li>
+<a href= "#photos.html">Photos 1</a>
+</li>
+<a href= "#photos.html">About 2</a>
+</li>
+
+
+<img src=
+
+
+<body> 
+
+
+
+
+
+
+</body>
+</html>
