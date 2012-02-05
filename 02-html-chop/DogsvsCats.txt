@@ -1,28 +1,39 @@
 <DOCTYPE html>
 <html>
 <head>
-<body>
 <title>dogs vs. cats</title>
+<link> a ref="dogvscat-logo.gif"></link>
 <head>
 <body>
-<nav>
+<nav id='top menu'>
 <ul>
-<li>
-<a href= "#photos.html">Photos 1</a>
-</li>
-<a href= "#photos.html">About 2</a>
-</li>
-
-
-<img src=
-
-
-<body> 
-
-
-
-
-
-
+<li><a href= "#photos.html">Photos 1</a></li>
+</li><a href= "#photos.html">About 2</a></li>
+</li><a href= "#photos.html">Submit 3</a></li>
+</li><a href= "#photos.html">Blog 4</a></li>
+</li><a href= "#photos.html">Contact 5</a></li>
+</ul>
+</nav>
+<section id='Dog Content'>
+<div>
+<img src="http://www.blipfoto.com/uploads/1710/2007/13462141184750a8ace7c831.10555245.jpeg"/img>
+<section id='content'>
+<h1>Dogs Have Better Noses</h1>
+<article class='Dog info'>
+<p>
+Dogs can discriminate odors at concentrations nearly 100 million times lower than humans can. The wet nose is essential for determining the direction of the air current containing the smell. Cold receptors in the skin are sensitive to the cooling of the skin by evaporation of the moisture by air currents.</p>
+</section id='content'>
+</article class='Dog info'
+</div>
+<div>
+<section id='Cat Content'>
+<img src="http://30.media.tumblr.com/tumblr_lo11vcyU1z1qk5yn3o1_500.jpg"/img>
+<h2>Cats Have Better Tongues</h2>
+<article class='Cat info">
+<p>
+Cats are known for their cleanliness, spending many hours licking their coats. The cat's tongue has backwards-facing spines about 500 micrometers long, which are called papillae. These are quite rigid, as they contain keratin. These spines allow cats to groom themselves by licking their fur, with the rows of papillae acting like a hairbrush.</p>
+</section id='content'>
+</article class='Cat info'>
+</div>
 </body>
 </html>
