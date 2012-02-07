@@ -8,39 +8,46 @@
 \f0\fs24 \cf2 <!DOCTYPE html>\
 <html>\
 <head>\
-<title>dogsvscats</title>\
+<title>dogs vs cats</title>\
 </head>\
-<header>\
-<h1><img src="dogvscat-logo.gif"></img></h1>\
-</header>\
 <body>\
+<header>\
+<h1 id=logo>\
+<img src="images/dogvscat-logo.gif" />\
+</h1>\
+</header>\
 <nav id='top-menu'>\
 <ul>\
-<li><a href= "#photos.html">Photos </a></li>\
-<li><a href= "#photos.html">About </a></li>\
-<li><a href= "#photos.html">Submit </a></li>\
-<li><a href= "#photos.html">Blog </a></li>\
-<li><a href= "#photos.html">Contact </a></li>\
+<li><a href="#">Photos </a></li>\
+<li><a href="#">About </a></li>\
+<li><a href="#">Submit </a></li>\
+<li><a href="#">Blog </a></li>\
+<li><a href="#">Contact </a></li>\
 </ul>\
 </nav>\
-</header>\
 <section id='Dog-Content'>\
-<article class='Dog-info'>\
-<img src="http://www.blipfoto.com/uploads/1710/2007/13462141184750a8ace7c831.10555245.jpeg"/img>\
+<img src="images/13462141184750a8ace7c831.10555245.jpeg">\
 <h1>Dogs Have Better Noses</h1>\
+<article class='Dog-info'>\
 <p>\
 Dogs can discriminate odors at concentrations nearly 100 million times lower than humans can. The wet nose is essential for determining the direction of the air current containing the smell. Cold receptors in the skin are sensitive to the cooling of the skin by evaporation of the moisture by air currents.</p>\
-</section>\
 </article>\
-</header>\
+</section>\
 <section id='Cat-Content'>\
-<article class='Cat-info">\
-<img src="http://30.media.tumblr.com/tumblr_lo11vcyU1z1qk5yn3o1_500.jpg"/img>\
+<img src="images/tumblr_lo11vcyU1z1qk5yn3o1_500.jpg">\
 <h1>Cats Have Better Tongues</h1>\
+<article class='Cat-info'>\
 <p>\
 Cats are known for their cleanliness, spending many hours licking their coats. The cat's tongue has backwards-facing spines about 500 micrometers long, which are called papillae. These are quite rigid, as they contain keratin. These spines allow cats to groom themselves by licking their fur, with the rows of papillae acting like a hairbrush.</p>\
-</section>\
 </article>\
-</header>\
+</section>\
+<footer id='site-footer'>\
+<nav id="footer-nav'>\
+<ul>\
+<li>images and copy from<a href="#">wiki commons</a></li>\
+<li>copyright \'a92012<a href="#">mary grey</a></li>\
+</ul>\
+</nav>\
+</footer>\
 </body>\
 </html>}
