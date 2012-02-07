@@ -1,12 +1,12 @@
-<index.html>
+<!DOCTYPE html>
 <html>
 <head>
-<title>Dogsvs.Cats</title>
-</head>
-<body>
 <header>
 <h1><a href="dogvscat-logo.gif">Link1</a></h1>
-<nav id='top menu'>
+</header>
+</head>
+<body>
+<nav id='top-menu'>
 <ul>
 <li><a href= "#photos.html">Photos </a></li>
 <li><a href= "#photos.html">About </a></li>
