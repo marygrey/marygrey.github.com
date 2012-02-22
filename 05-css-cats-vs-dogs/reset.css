@@ -74,3 +74,44 @@ html[xmlns] .clearfix { display: block; }
 * html .clearfix { height: 1%; }
 
 
+/*CODE STARTS*/
+
+<style>
+
+header {postion:relative;
+		height:300px;
+		}
+		
+header-img {postion:absolute;
+		margin:0 auto;
+		top:50px;
+		left:30%
+		}
+		
+nav {position:absolute;
+	top:200px;
+	left:0px; }
+	
+li {float:left;
+	margin:20px;
+}
+
+article {
+float:left;
+width:40%;
+}
+
+article img {
+width:350;
+}
+
+footer {postion:relative;
+		clear:both;
+		bottom:0px;
+		background-color:magenta;
+		}
+</style>
+
+/*CODE ENDS- in HTML: GO to footer
+footer class="clearfix">'images and copy from...S*/
+
