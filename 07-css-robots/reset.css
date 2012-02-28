@@ -50,3 +50,63 @@ table {
 	border-spacing: 0;
 }
 
+<style>
+body {width:960px; margin:0 auto; }
+
+header {width:960px;
+		color:pale-yellow;
+		}
+header img {float:left;
+}
+
+nav {position:relative;
+	width:960px;
+	height:30px;
+	color:brown;
+	}
+
+nav ul {
+	
+search bar {position:relative;
+	width:960px;
+	height:30px;
+	color:brown;
+	}
+	
+article {position:relative;
+		width:200px;
+		top:200px;
+		}
+
+h1 {font-family:helvetiva; 
+	font-size:45px; 
+	text-transform:italic;
+	font-weight:bold;
+	}
+
+h2 {font-family:helvetiva; 
+	font-size:20px; 
+	text-transform:uppercase;
+	font-weight:bold;
+	}
+
+p {font-family:helvetiva; 
+	font-size:10px; 
+	line-height:1.5em:
+	}
+	
+aside {float:right;
+		top:200px;
+		}
+		
+footer {width:960px;
+		height:100px;
+		color:brown;
+		}
+		
+section {float:left;
+		width:20px;
+		}
+		
+			
+</style>
