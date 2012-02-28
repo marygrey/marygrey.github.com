@@ -6,82 +6,80 @@ header#site-header {postion:relative;
 		height:100px;
 		background-color:lightyellow;
 		}
-
-header nav {position:absolute;
-	float:right;
-	margin:0 5px;
-	width:960px;
-	font-family:helvetica;
-	font-size:10px;
-	left:860px;
-	top:15px;
-	}
-    
+			
 h1 img {position:absolute;
 	left:10px;
 	top:15px;
     display:block;
     }
 
-main-menu nav {position:absolute;
-	float:right;
-	margin:0 10px;
+nav {position:absolute;
+	float:left;
+	margin:0 auto;
 	width:960px;
+	top:100px;
+	font-family:helvetica;
+	font-size:14px;
+	letter-spacing:.2em;
+	text-transform:uppercase;
+	text-decoration:none;
+	border-top-style:solid;
+    border-top-width:2px;
+	border-bottom-style:solid;
+    border-bottom-width:2px;
+    background-color:magenta;
+    color:magenta;
 	}
 	
-main-menu nav ul,li {float:left;
-    		background-color:magenta;
-    		padding:20px;
-    		margin:5px;
+nav ul,li {float:left;
+			margin:10px;
     }
 
-main-menu a {color:white;
-			text-decoration:none;
-    		text-transform:uppercase;
-    		font-family:helvetica;
-			font-size:12px;
-			letter-spacing:.2em;
+a {color:white;
+	text-decoration:none;
 	 }
 	
 article#page {position:relative;
 		width:370px;
-		top:150px;
+		top:100px;
 		}
 
 article h1 {font-family:Century-Schoolbook; 
 	font-size:45px; 
 	text-transform:BoldItalic;
 	font-weight:bold;
-	height:60px;
+	height:20px;
 	color:green;
 	}
 
 article h2 {font-family:helvetica; 
-	font-size:20px; 
+	font-size:14px; 
 	text-transform:uppercase;
 	height:10px;
 	color:magenta;
+	letter-spacing:.1em;
 	}
 
 article p {font-family:helvetica;
-	font-size:12px;
+	font-size:10px;
 	color:gray;
-	line-height:1.6em; 
+	line-height:1.6em;
+	letter-spacing:.04em;
 	}
 	
-aside sidebar {float:right;
+aside sidebar {float:left;
 		width:30px;
-		top:0px;
+		top:10px;
 		}
 
 aside h1 {float:right;
-	top:20px;
+	top:10px;
 	font-family:helvetica; 
-	font-size:20px; 
+	font-size:14px; 
 	text-transform:uppercase;
 	height:5px;
 	color:magenta;
-	margin:20px;}
+	margin:0px;}
 	
 aside li {postion:relative;
 			float:right;
@@ -89,27 +87,49 @@ aside li {postion:relative;
 			}
 			
 aside a {color:gray;
-		background-color:white;
 		text-decoration:none;
 		text-transform:uppercase;
 		font-family:helvetica;
-		font-size:12px;
+		font-size:10px;
 		}
 		
 aside ul {float:right; 
-		width:140px;
+		width:200px;
+		padding:10px;
 		}
+
+aside img {float:right;
+		width:100px;
+		img-src:images/robot-pets.png;
+		img-src:images/vintage-bots.png;
+      }
 		
 footer {width:960px;
-		height:200px;
-		background-color:red;
+		height:150px;
+		background-color:blue;
 		}
 		
 footer nav {float:right;
 			width:20px;
 			}
 
-footer#h1 {font-family:helvetica;}
+footer h1 {font-family:helvetica;
+			color:gray;
+			font-size:14px;
+			text-transform:uppercase;
+			top:100px;
+			letter-spacing:.1em;
+			}
+
+footer p {font-family:helvetica;
+			font-size:10px; 
+			color:white;
+			width:150px;
+			}
+			
+footer ul li {float:right;
+			width:40px;
+			}	
 			
 		
 			
