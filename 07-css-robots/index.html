@@ -6,66 +6,70 @@ body {width:100%; }
 			height:130px;
 			}
 
-#site-header {postion:relative;
+#site-header {position:relative;
+		width:800px; margin:auto;
+		padding-bottom:10px;
 		display:block;
-		width:960px;
 		}
 		
 #site-header h1 a {display:block;
-		background:url(images/logo.png)no-repeat top left;
+		background:url(images/logo.png) no-repeat top left;
 		width:300px:
-		height:10px;
-		margin-left:60px;
+		height:125px;
 		}
 			
-#top-nav {postion:absolute;
-			top:20px;
+#top-nav {position:absolute;
+			float:right;
+			top:10px;
 			left:695px;
 			color:white;
 			}
 			
 #top-nav a {font-family:helvetica;
+			text-decoration:none;
 			font-size:10px;
 			color:white;
 			}
-
+			
 #menu-wrapper {width:100%;
 				background-color:magenta;
 				}
+			
+#main-menu {
+	clear:both;
+	width:800px;
+	height:50px;
+	margin:auto;
+	}
 
-nav {position:absolute;
+#main-menu a {
 	float:left;
-	margin:0 auto;
-	width:960px;
-	top:140px;
+	text-decoration:none;
+	margin-top;8px;
 	font-family:helvetica;
 	font-size:14px;
 	letter-spacing:.2em;
 	text-transform:uppercase;
-	text-decoration:none;
-	border-top-style:solid;
-    border-top-width:2px;
-	border-bottom-style:solid;
-    border-bottom-width:2px;
-    background-color:magenta;
-    color:magenta;
+	color:white;
 	}
 	
-nav ul,li {float:left;
-			margin:10px;
-    }
+#content-wrapper {
+	width:100%;
+}	
 
-a {color:white;
-	text-decoration:none;
-	 }
-	
-article#page {position:relative;
-		width:370px;
-		top:90px;
-		margin-left:60px;
+#content {
+		width: 800px;
+		margin: auto;
+		display:block;
+	}	
+
+#page {clear:both;
+		float:left;
+		width:400px;
+		margin-top:20px;
 		}
 
-article h1 {font-family:Century-Schoolbook; 
+#page h1 {font-family:Century-Schoolbook; 
 	font-size:45px;
 	font-style:italic;
 	font-weight:bold;
@@ -73,7 +77,7 @@ article h1 {font-family:Century-Schoolbook;
 	color:green;
 	}
 
-article h2 {font-family:helvetica; 
+#page h2 {font-family:helvetica; 
 	font-size:14px; 
 	text-transform:uppercase;
 	height:10px;
@@ -81,7 +85,7 @@ article h2 {font-family:helvetica;
 	letter-spacing:.1em;
 	}
 
-article p {font-family:helvetica;
+#page p {font-family:helvetica;
 	font-size:10px;
 	color:gray;
 	line-height:1.6em;
@@ -92,66 +96,73 @@ article p {font-family:helvetica;
 		float:right;
 		margin-top:70px;
 		margin-bottom:100px;
-		width:190px;
+		width:275px;
 		}
 
-#sidebar h1 {float:right;
-	font-family:helvetica; 
-	font-size:14px; 
-	text-transform:uppercase;
-	height:5px;
-	color:magenta;
-	margin:20px;}
-	
-#sidebar li {postion:relative;
-			float:right;
-			height:0px;
-			}
-			
-#sidebar a {color:gray;
-		text-decoration:none;
-		text-transform:uppercase;
-		font-family:helvetica;
-		font-size:10px;
-		}
-		
-#sidebar ul {float:right; 
-		width:100px;
-		padding:10px;
-		}
-
-#sidebar img {postion:relative;
-		float:right;
-		width:150px;
-		}
-    
-		
-#footer {width:960px;
-		height:150px;
-		background-color:blue;
-		}
-		
-footer nav {float:right;
-			width:20px;
-			}
-
-footer h1 {font-family:helvetica;
-			color:gray;
-			font-size:14px;
+#sidebar h1 {font-family:helvetica; 
+			font-size:14px; 
 			text-transform:uppercase;
-			top:100px;
-			letter-spacing:.1em;
-			}
-
-footer p {font-family:helvetica;
-			font-size:10px; 
-			color:white;
-			width:150px;
-			}
+			color:magenta;
+			margin:5px 0px}
 			
-footer ul li {float:right;
-			width:40px;
-			}	
+#sidebar ul {
+	margin-bottom:10px;
+	}
+#sidebar a {
+	font-family:arial;
+	text-decoration:none;
+	color:gray;
+	font-weight:bold;
+	line-height: 1.5em;
+	font-size:11px;
+	}
+    
+#footer-wrapper {
+	clear:both;
+	background-color:#744918;
+	height:200px;
+	width:100%;
+	}
+		#site-footer{
+			width:800px;
+			margin:auto;
+			display:block;
+		}
+#footer-contact {
+	float:left;
+	width:150px;
+	margin-top:10px;
+	}
+#footer-contact h1 {
+	font-family:arial;
+	color:#d0c7b1;
+	font-size:14px;
+	text-transform:uppercase;
+	}
+#footer-contact p{
+	font-family:arial;
+	color:#ffffff;
+	font-size:11px;
+	margin-top:10px;
+	}
+#footer-follow {
+	position:relative;
+	float:right;
+	width:250px;
+	margin-right:0;
+	margin-top:10px
+	}
+#footer-follow h1 {
+	font-family:arial;
+	color:#d0c7b1;
+	font-size:14px;
+	text-transform:uppercase;
+	}	
+#footer-follow li a {
+	float:left;
+	margin-top:10px;
+	}
+
 			
 		
 			
