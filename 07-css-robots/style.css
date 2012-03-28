@@ -1,0 +1,210 @@
+/* Meyer Reset */
+/* http://meyerweb.com/eric/tools/css/reset/ 
+   v2.0 | 20110126
+   License: none (public domain)
+*/
+
+html, body, div, span, applet, object, iframe,
+h1, h2, h3, h4, h5, h6, p, blockquote, pre,
+a, abbr, acronym, address, big, cite, code,
+del, dfn, em, img, ins, kbd, q, s, samp,
+small, strike, strong, sub, sup, tt, var,
+b, u, i, center,
+dl, dt, dd, ol, ul, li,
+fieldset, form, label, legend,
+table, caption, tbody, tfoot, thead, tr, th, td,
+article, aside, canvas, details, embed, 
+figure, figcaption, footer, header, hgroup, 
+menu, nav, output, ruby, section, summary,
+time, mark, audio, video {
+	margin: 0;
+	padding: 0;
+	border: 0;
+	font-size: 100%;
+	font: inherit;
+	vertical-align: baseline;
+}
+/* HTML5 display-role reset for older browsers */
+article, aside, details, figcaption, figure, 
+footer, header, hgroup, menu, nav, section {
+	display: block;
+}
+body {
+	line-height: 1;
+}
+ol, ul {
+	list-style: none;
+}
+blockquote, q {
+	quotes: none;
+}
+blockquote:before, blockquote:after,
+q:before, q:after {
+	content: '';
+	content: none;
+}
+table {
+	border-collapse: collapse;
+	border-spacing: 0;
+}
+
+/* START OF STYLE */
+
+
+body {font-family:helvetica, arial, sans-serif; font-size:16px;}
+
+#site-wrapper {width:100%;
+			background-color:lightyellow;
+			}
+
+#site-header {position:relative;
+		width:960px; 
+		margin:0 auto;
+		}
+		
+#site-wrapper h1 {position:relative;}
+		
+#site-header h1 a {display:block;
+		background:url(images/logo.png) no-repeat top left;
+		width:306px:
+		height:123px;
+		text-indent:-9999px;
+		}
+		
+#top-nav {
+		position:absolute;
+		top:0;
+		right:0;
+		}
+			
+
+#menu-wrapper {
+		height:40px;
+		background-color:#82582d;
+		}
+			
+#main-menu {
+		width:960px;
+		margin:0 auto;
+		}
+	
+#main-menu li {
+		float:left;
+		}
+			 
+#main-menu li a {	 
+		display:block;
+		color:white;
+		text-decoration:none;
+		padding:15px 15px 0 20px;
+		text-transform:uppercase;
+		font-weight:bold;
+		}
+			 
+#main-menu li a:hover {
+		color:tan;
+		}
+			 
+			 
+#content-wrapper {clear:both;
+		width: 960px;
+		margin:0 auto;
+		}	
+
+#page {
+		float:left;
+		width:400px;
+		padding:25px;
+		}
+
+#page h1 {font-family: 'LobsterTwoRegular'; 
+		font-size:45px;
+		color:#744918;
+		padding-bottom:15px;
+		}
+
+
+#page p {font-family:helvetica;
+		font-size:11px;
+		color:gray;
+		line-height:1.6em;
+		letter-spacing:.04em;
+		padding bottom:10px;
+		}
+	
+#page h2 {font-family:Century-Schoolbook; 
+		font-size:16px;
+		color:#744918;
+		padding-bottom:15px;
+		}
+		
+#sidebar {
+		float:right;
+		width:250px;
+		padding-top:55px;
+		margin-left:150px;
+		}
+		
+#sidebar ul {
+		padding-bottom:20px;
+		}
+		
+#sidebar li {
+		padding: 5px 0px;
+		}
+
+#sidebar li a {
+		color:#744918;
+		text-decoration:none;
+		font-size:12px;
+		}
+		
+#sidebar img {
+		padding-top:10px;
+		}
+
+#footer-wrapper {clear:both;
+		background-color:#744918;
+		height:200px;
+		
+	}
+	
+#site-footer { 
+		position:relative;
+		width:960px;
+		margin:0 auto;
+		color:white;
+		font-size:10px;
+			}
+			
+#footer-contact{
+		position:absolute;
+		left:0;
+		top:20px;
+		width:200px;
+		line-height:1.2em;
+		}
+
+#footer-follow {
+		position:absolute;
+		right:60PX;
+		top:20px;
+		}
+		
+#footer-follow li {
+		float:left;
+		}
+
+@font-face {
+    font-family: 'LobsterTwoRegular';
+    src: url('fonts/LobsterTwo-Regular-webfont.eot');
+    src: url('fonts/LobsterTwo-Regular-webfont.eot?#iefix') format('embedded-opentype'),
+         url('fonts/LobsterTwo-Regular-webfont.woff') format('woff'),
+         url('fonts/LobsterTwo-Regular-webfont.ttf') format('truetype'),
+         url('fonts/LobsterTwo-Regular-webfont.svg#LobsterTwoRegular') format('svg');
+    font-weight: normal;
+    font-style: normal;
+    }
+
+
+/* END OF STYLE */
